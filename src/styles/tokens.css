@@ -1,0 +1,70 @@
+/* Design tokens. Change the palette here and every section follows. */
+:root {
+  --bg: #0a0c10;
+  --bg-2: #0e1116;
+  --surface: #13171d;
+  --surface-2: #1a1f27;
+  --surface-3: #222833;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.14);
+
+  --text: #f2f4f7;
+  --text-2: #a4adb9;
+  --text-3: #6d7684;
+
+  --accent: #7cf0b2;
+  --accent-2: #5fe09c;
+  --accent-ink: #06130c;
+  --accent-soft: rgba(124, 240, 178, 0.12);
+  --accent-glow: rgba(124, 240, 178, 0.25);
+  --danger: #ff7a7a;
+  --success: #7cf0b2;
+
+  --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+
+  --container: 1200px;
+  --gutter: 20px;
+  --nav-h: 73px;
+  --section-pad: 56px;
+  --header-gap: 32px;
+  --grid-gap: 12px;
+
+  --fs-h1: 36px;
+  --fs-h2: 30px;
+  --fs-sub: 17px;
+  --fs-hero-sub: 18px;
+  --fs-tile-title: 18px;
+  --fs-tile-desc: 14px;
+
+  --shadow-phone: 0 30px 60px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.04);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --fs-h1: 48px;
+    --fs-h2: 36px;
+    --fs-sub: 18px;
+    --grid-gap: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --nav-h: 89px;
+    --section-pad: 112px;
+    --header-gap: 48px;
+    --fs-h1: 60px;
+    --fs-h2: 40px;
+    --fs-sub: 19px;
+    --fs-hero-sub: 20px;
+    --fs-tile-title: 20px;
+    --fs-tile-desc: 15px;
+  }
+}
